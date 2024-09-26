@@ -1,0 +1,191 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(189, 35, 35, 0.87);
+  background-color: #242424;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #fff;
+  padding-bottom: 60px;
+  height: 10px;
+  margin-bottom: 60px;
+  
+  
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  
+  
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.email{
+  padding: 10px;
+  background-color: #000;
+  border-radius: 30px;
+  margin-bottom: 20px;
+
+
+  
+}
+
+.password{
+  background-color: #000;
+  padding: 10px;
+  border-radius: 30px;
+  
+  
+
+}
+
+.login{
+  
+  background-color: #000000;
+  padding: 50px;
+  border-radius: 30px;
+  width: 50vw;
+  
+  
+}
+
+
+
+p {
+  color: #fff;
+}
+
+
+
+h4 {
+  color: #000000;
+  
+}
+
+.emailTitle{
+  color: #fff;
+  margin-right: 400px;
+}
+
+.senhaTitle{
+  color: #fff;
+  margin-right: 400px;
+}
+
+input{
+  background-color: #fff;
+  padding: 15px;
+  padding-left:300px;
+  border-radius: 30px;
+  
+
+}
+
+.entrarCom{
+  color: #fff;
+  margin-top: -30px;
+}
+
+.globalIcons{
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  margin: auto;
+}
+
+.facebook{
+  font-size: 30px;
+}
+
+.google{
+  font-size: 30px;
+}
+
+.main{  
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin-left: -300px;
+ 
+  
+}
+
+h2{
+  color: #fff;
+  font-size: 45px;
+  margin-top: 30px;
+  
+}
+
+.entrar{
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+  margin-top: 30px
+}
+
+.centro{
+ margin-bottom: 60px;
+ margin-top: 250px
+
+}
+
+aside{
+  background-color: #fff;
+  height: 100vh;
+  width: 50vw;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
