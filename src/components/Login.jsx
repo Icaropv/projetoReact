@@ -1,6 +1,8 @@
 import Button from "./button"
 import { SlSocialGoogle } from "react-icons/sl";
 import { FaFacebook } from "react-icons/fa";
+import imagem from "../assets/Visionary technology-bro.svg"
+
 
 function Login() {
     return (
@@ -10,14 +12,14 @@ function Login() {
         <div className="main">
             <div className="login">
 
-                <h2>Logar</h2>
+                <h1>Logar</h1>
                 <div className="centro">
 
                     <div className="emailTitle">Email</div>
-                    <div className="email"><input type="email" placeholder="Email" /></div>
+                    <div className="email"><input type="email" placeholder="Insira seu Email" /></div>
 
                     <div className="senhaTitle">Senha</div>
-                    <div className="password"><input type="password" placeholder="Senha" /></div>
+                    <div className="password"><input type="password" placeholder="Insira sua Senha" /></div>
 
 
                     <Button texto="Entrar" />
@@ -44,6 +46,7 @@ function Login() {
             </div>
 
             <aside>
+                <img src={imagem} alt="" className="imgAside" />
             </aside>
 
         </div>
